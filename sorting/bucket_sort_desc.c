@@ -26,7 +26,7 @@ void bucketsort(int a[],int n)
     max=a[0];
     for(i=1;i<n;i++)
     {
-        if(a[i]>max)
+        if(a[i]<max)
         {
             max=a[i];
         }
