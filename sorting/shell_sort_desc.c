@@ -20,9 +20,9 @@ void main()
 void shellsort(int a[],int n)
 {
     int i,j,gap,temp;
-    for(i=gap/2;gap>0;gap=gap/2)
+    for(gap=n/2;gap>0;gap=gap/2)
     {
-        for(i=0;i<n;i++)
+        for(i=gap;i<n;i++)
         {
             temp=a[i];
             j=i;
